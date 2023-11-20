@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     flex: 1,
     
 
-    backgroundColor: "#343F48", // Cor de fundo semelhante ao do Flipboard
+    backgroundColor: "#343F48", 
     padding: 20,
   },
   icon: {

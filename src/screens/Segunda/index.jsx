@@ -45,10 +45,8 @@ const Segunda = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    backgroundColor: '#343f48', 
     padding: 20,
-    backgroundColor: '#fff',
   },
   input: {
     borderWidth: 1,
@@ -56,13 +54,12 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     padding: 10,
     marginBottom: 10,
-    width: '100%',
+    backgroundColor: '#fff', 
   },
   button: {
-    backgroundColor: 'blue',
+    backgroundColor: 'red', 
     padding: 10,
     borderRadius: 5,
-    width: '100%',
     alignItems: 'center',
   },
   buttonText: {
@@ -70,7 +67,6 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   list: {
-    width: '100%',
     marginTop: 20,
   },
   taskItem: {
@@ -79,9 +75,12 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     padding: 10,
     marginBottom: 10,
+    backgroundColor: '#fff', 
   },
 });
 
 export default Segunda;
+
+
 
 
