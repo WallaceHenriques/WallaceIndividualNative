@@ -5,7 +5,7 @@ Projeto de React Native para clonar uma tela de um aplicativo qualquer escolhido
 O App que teve sua tela inicial clonada foi o Flipboard que um app onde você pode ler artigos importantes 
 para o seu dia a dia, reunindo suas fontes de notícias favoritas.
 
-O Projeto consiste em instalar o React Navigation e configurar duas rotas.
+O Projeto consiste em instalar o React Navigation e configurar suas rotas.
 
 O Projeto tem um botão na página a ser clonada habilitado para navegar para a segunda rota (página).
 
