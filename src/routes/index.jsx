@@ -1,7 +1,7 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { FlipboardIcon } from "../screens/Pagina";
-import {Segunda} from "../screens/Segunda";
+import Segunda from "../screens/Segunda";
 
 
 const Stack = createNativeStackNavigator();
