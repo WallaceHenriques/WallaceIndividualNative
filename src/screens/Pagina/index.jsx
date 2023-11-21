@@ -7,7 +7,7 @@ export const FlipboardIcon = ({ navigation }) => {
     <View style={styles.container}>
       <View>
         <Image
-          style={{ width: 80, height: 80, marginTop:123, marginBottom: 65, }}
+          style={{ width: 91, height: 91, marginTop: 123, marginBottom: 65 }}
           source={logo}
         />
       </View>
@@ -31,9 +31,7 @@ export const FlipboardIcon = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    
-
-    backgroundColor: "#343F48", 
+    backgroundColor: "#343F48",
     padding: 20,
   },
   icon: {
@@ -53,15 +51,12 @@ const styles = StyleSheet.create({
     fontFamily: "Arial",
   },
   description: {
-    marginTop: 10,
-    fontSize: 20,
-    lineHeight: 24,
+    marginTop: 20,
+    fontSize: 32,
+    lineHeight: 30, // Ajuste o lineHeight para controlar o espaçamento entre linhas
     color: "white",
     fontFamily: "Arial",
     fontWeight: "bold",
-
-    
-
   },
   importam: {
     textDecorationLine: "underline",
@@ -72,17 +67,16 @@ const styles = StyleSheet.create({
     color: "white",
     fontFamily: "Arial",
   },
-
   botao: {
     backgroundColor: "white",
-    marginTop: 180,
-    padding: 10,
+    marginTop: 166,
+    padding: 16,
     borderRadius: 3,
   },
-
   comecar: {
     textAlign: "center",
   },
 });
 
 export default FlipboardIcon;
+
