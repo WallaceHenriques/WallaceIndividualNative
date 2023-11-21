@@ -15,7 +15,7 @@ export const FlipboardIcon = ({ navigation }) => {
       <Text style={[styles.description, { marginTop: 8 }]}>DESCUBRA E </Text>
       <Text style={[styles.description, { marginTop: 7 }]}>COMPARTILHE AS </Text>
       <Text style={[styles.description, { marginTop: 7 }]}>HISTÓRIAS QUE</Text>
-      <Text style={[styles.description, { marginTop: 7 }]}>IMPORTAM PARA </Text>
+      <Text style={[styles.description, { marginTop: 7 }]}><Text style={[styles.description, { textDecorationLine: "underline"}]}>IMPORTAM</Text> PARA </Text>
       <Text style={[styles.description, { marginTop: 7 }]}>VOCÊ</Text>
 
       <TouchableOpacity
@@ -53,20 +53,12 @@ const styles = StyleSheet.create({
   description: {
     marginTop: 20,
     fontSize: 32,
-    lineHeight: 37, // Ajuste o lineHeight para controlar o espaçamento entre linhas
+    lineHeight: 37, 
     color: "white",
     fontFamily: "Arial",
-    fontWeight: "bold",
+    fontWeight: "900",
   },
-  importam: {
-    textDecorationLine: "underline",
-    fontWeight: "bold",
-    marginTop: 50,
-    fontSize: 20,
-    lineHeight: 24,
-    color: "white",
-    fontFamily: "Arial",
-  },
+  
   botao: {
     backgroundColor: "white",
     marginTop: 185,
@@ -76,6 +68,13 @@ const styles = StyleSheet.create({
   },
   comecar: {
     textAlign: "center",
+
+    importamUnderline: {
+      textDecorationColor: "white", 
+      fontWeight: "900", 
+    },
+    
+    
   },
 });
 
