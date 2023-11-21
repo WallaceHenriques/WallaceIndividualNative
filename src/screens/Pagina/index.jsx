@@ -68,6 +68,10 @@ const styles = StyleSheet.create({
   },
   comecar: {
     textAlign: "center",
+    fontSize: 15,
+    
+    
+
 
     importamUnderline: {
       textDecorationColor: "white", 
