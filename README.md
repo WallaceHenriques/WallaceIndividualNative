@@ -18,3 +18,8 @@ Ele Adiciona tarefas à lista com facilidade.
 
 <img src="https://github.com/WallaceHenriques/WallaceIndividualNative/blob/main/Print%20da%20Tela%20Clonada.jpeg">
 
+Clone da Tela
+
+<img src="https://github.com/WallaceHenriques/WallaceIndividualNative/blob/main/Clone%20da%20Tela.jpeg">
+
+
