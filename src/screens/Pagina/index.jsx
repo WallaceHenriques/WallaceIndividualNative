@@ -12,11 +12,11 @@ export const FlipboardIcon = ({ navigation }) => {
         />
       </View>
 
-      <Text style={styles.description}>DESCUBRA E </Text>
-      <Text style={styles.description}>COMPARTILHE AS </Text>
-      <Text style={styles.description}>HISTÓRIAS QUE</Text>
-      <Text style={styles.description}>IMPORTAM PARA </Text>
-      <Text style={styles.description}>VOCÊ</Text>
+      <Text style={[styles.description, { marginTop: 8 }]}>DESCUBRA E </Text>
+      <Text style={[styles.description, { marginTop: 7 }]}>COMPARTILHE AS </Text>
+      <Text style={[styles.description, { marginTop: 7 }]}>HISTÓRIAS QUE</Text>
+      <Text style={[styles.description, { marginTop: 7 }]}>IMPORTAM PARA </Text>
+      <Text style={[styles.description, { marginTop: 7 }]}>VOCÊ</Text>
 
       <TouchableOpacity
         onPress={() => navigation.navigate("Segunda")}
@@ -31,7 +31,7 @@ export const FlipboardIcon = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#343F48",
+    backgroundColor: "#404d5a",
     padding: 20,
   },
   icon: {
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
   description: {
     marginTop: 20,
     fontSize: 32,
-    lineHeight: 30, // Ajuste o lineHeight para controlar o espaçamento entre linhas
+    lineHeight: 37, // Ajuste o lineHeight para controlar o espaçamento entre linhas
     color: "white",
     fontFamily: "Arial",
     fontWeight: "bold",
@@ -69,9 +69,10 @@ const styles = StyleSheet.create({
   },
   botao: {
     backgroundColor: "white",
-    marginTop: 166,
+    marginTop: 185,
     padding: 16,
     borderRadius: 3,
+    paddingHorizontal: 20
   },
   comecar: {
     textAlign: "center",
